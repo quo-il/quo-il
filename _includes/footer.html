@@ -5,15 +5,22 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.name | escape }}
-            {%- endif -%}
+            <li>
+              <a href="https://github.com/quo-il/quo-il.github.io/blob/master/{{ page.path}}">
+                לעריכת עמוד זה
+              </a>
+            </li>
+            <li class="p-name">
+              {%- if site.author -%}
+                {{ site.author | escape }}
+              {%- else -%}
+                {{ site.name | escape }}
+              {%- endif -%}
             </li>
             {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li>
+              <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </li>
             {%- endif -%}
         </ul>
       </div>
