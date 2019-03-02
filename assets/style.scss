@@ -1,5 +1,35 @@
 ---
 ---
 
+blockquote { text-align: right; }
 table { text-align: inherit; }
 table th, table td { text-align: initial; }
+
+blockquote {
+  border-left:none !important;
+  position: relative;
+  padding-left: 0.5em;
+  position: relative;
+  padding: 1.5em;
+  line-height: 1.9em;
+  min-height: 2em;
+  border-right: 3px solid #dedede;
+  background-color: #f7f7f7;
+  color: #3f3f3f;
+  font-size: 17px; 
+  line-height: 1.75em; 
+  direction: rtl; 
+  text-align: right;
+}
+
+cite {
+  margin: 10px 0 70% 0 36px;
+  font-size: 14px;
+  font-style:normal;
+  display: block;
+  margin-top: 5px;
+}
+
+cite a {
+  color: inherit;
+}

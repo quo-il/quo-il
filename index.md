@@ -6,24 +6,21 @@ layout: default
 title: ""
 ---
 
-### {{ site.description }}
+{% assign basics = site.basics | sort: 'sort_order' %}
 
-<table>
-  <thead>
-    <tr>
-      <th>מפלגה</th>
-      <th>עמדה</th>
-      <th>פרטים</th>
-    </tr>
-	</thead>
-  {% for party in site.parties %}
-    <tr>
-      <td>{{ party.title }}</td>
-      <td>{{ party.position }}</td>
-      <td>
-        <a href="{{ party.url }}">תחבורה ציבורית בשבת&nbsp;- {{ party.title }}</a>
-      </td>
-    </tr>
+<p align="center">
+  {% for basic in basics %}
+    <span style="display: inline-block;">
+      <a href="#{{ basic.slug }}">{{ basic.title_pre | default: basic.title }}</a>
+      {% if forloop.last == false %}
+      &bull;
+      {% endif %}
+    </span>
   {% endfor %}
-</table>
+</p>
+
+{% for basic in basics %}
+  <h2 id="{{ basic.slug }}">{{ basic.title }}</h2>
+  {{ basic.content }}
+{% endfor %}
 

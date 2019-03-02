@@ -39,8 +39,13 @@ webmaster_verifications:
   # baidu: 1234
 
 collections:
+  basics:
+    output: false
   parties:
     output: true
+  people:
+    output: true
+
 
 exclude:
   - "*.sh"
