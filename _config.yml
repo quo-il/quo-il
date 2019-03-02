@@ -13,16 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: ""
+title: תחבורה ציבורית בשבת - סטטוס קוו 
+lang: he_IL
 name: תחבורה ציבורית בשבת - סטטוס קוו
 email: contact@quo.org.il
 description: >- 
-  מהו סטטוס קוו?
   מה ההשלכות שלו לגבי תחבורה ציבורית בשבת?
+  מהו סטטוס קוו?
   מה הפולטיקאים עושים לגבי זה?
   מה העמדות שלהם?
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://quo.org.il" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://quo.org.il" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: "/:categories/:title"
+
 
 # Build settings
 markdown: kramdown

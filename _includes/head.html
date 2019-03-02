@@ -3,7 +3,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="/favicon.png">
-  {%- seo -%}
+  {% if page.url == '/' %}
+    <title>{{ site.title }}</title>
+    <meta property="og:title" content="{{ site.title }}" />
+    {% seo title=false %}
+  {% else %}
+    {% seo %}
+  {% endif %}
   <meta name="keywords" content="סטטוס קוו,תחובורה,תחבורה ציבורית,שבת,אוטובוסים">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
