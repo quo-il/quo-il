@@ -2,7 +2,14 @@
 ---
 
 blockquote { text-align: right; }
-table { text-align: inherit; }
+a.edit_link_gh { 
+  font-size: 80%; 
+  color: #3f3f3f;
+}
+table { 
+  text-align: inherit;  
+  margin-bottom: 0px !important;
+}
 table th, table td { text-align: initial; }
 
 blockquote {

@@ -10,7 +10,10 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <h1>{{ site.name }}</h1>
-        <h2>{{ page.title }}</h2>
+        <h2 style="display: inline;">{{ page.title }}</h2>
+        {% if page.url != '/' %}
+        <a class="edit_link_gh" href="https://github.com/quo-il/quo-il.github.io/edit/master/{{ page.path }}">לעריכת עמוד זה</a>
+        {% endif %}
         {{ content }}
       </div>
     </main>
