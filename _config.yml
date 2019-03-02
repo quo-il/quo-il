@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: ""
-name: תחובורה ציבורית בסטטוס קוו
+name: תחבורה ציבורית בסטטוס קוו
 email: contact@quo.org.il
 description: >- 
   מהו סטטוס קוו?
@@ -37,6 +37,10 @@ webmaster_verifications:
   # alexa: 1234
   # yandex: 1234
   # baidu: 1234
+
+collections:
+  parties:
+    output: true
 
 exclude:
   - "*.sh"
