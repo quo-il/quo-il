@@ -24,7 +24,6 @@ description: >-
   מה העמדות שלהם?
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://quo.org.il" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: "/:categories/:title"
 
 
 # Build settings
@@ -46,8 +45,10 @@ collections:
     output: false
   parties:
     output: true
+    permalink: /מפלגות/:name
   people:
     output: true
+    permalink: /פוליטיקאים/:name
 
 
 exclude:
