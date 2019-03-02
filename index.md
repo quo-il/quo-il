@@ -18,8 +18,9 @@ title: ""
 	</thead>
   {% for party in site.parties %}
     <tr>
-      <td><a href="{{ party.url }}">{{ party.title }}</a></td>
+      <td>{{ party.title }}</td>
       <td>{{ party.position }}</td>
+      <td><a href="{{ party.url }}">פרטים</a></td>
     </tr>
   {% endfor %}
 </table>
