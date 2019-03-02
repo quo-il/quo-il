@@ -20,7 +20,7 @@ title: ""
     <tr>
       <td>{{ party.title }}</td>
       <td>{{ party.position }}</td>
-      <td><a href="{{ party.url }}">פרטים</a></td>
+      <td><a href="{{ party.url }}">תחבורה ציבורית בשבת - {{ party.title }}</a></td>
     </tr>
   {% endfor %}
 </table>
