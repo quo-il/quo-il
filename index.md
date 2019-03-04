@@ -14,9 +14,9 @@ title: ""
       <a href="#{{ basic.slug }}">{{ basic.title_pre | default: basic.title }}</a>
       {% if forloop.last == false %}
       <span class="hide-small">&bull;</span>
-      <span class="hide-big"><br></span>
       {% endif %}
     </span>
+    <br class="hide-big"/>
   {% endfor %}
 </p>
 
