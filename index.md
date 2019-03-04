@@ -23,7 +23,7 @@ title: ""
   <div>
   <h2 style="display: inline;" id="{{ basic.slug }}">{{ basic.title }}</h2>
   {% if basic.add_edit == true %}
-  <a class="edit_link_gh" href="https://github.com/quo-il/quo-il.github.io/edit/master/{{basic.path}}">לעריכת מקטע</a>
+  <a class="edit_link_gh" href="https://github.com/quo-il/quo-il/edit/master/{{basic.path}}">לעריכת מקטע</a>
   {% endif %}
   </div>
   {{ basic.content }}

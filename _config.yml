@@ -16,14 +16,13 @@
 title: תחבורה ציבורית בשבת - סטטוס קוו 
 lang: he_IL
 name: תחבורה ציבורית בשבת - סטטוס קוו
-email: contact@quo.org.il
+email: contact@quo-il.org
 description: >- 
   מה ההשלכות שלו לגבי תחבורה ציבורית בשבת?
   מהו סטטוס קוו?
   מה הפולטיקאים עושים לגבי זה?
   מה העמדות שלהם?
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://quo.org.il" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
