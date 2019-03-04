@@ -7,9 +7,10 @@ title: ""
 ---
 
 {% assign basics = site.basics | sort: 'sort_order' %}
+{% assign header_basics = basics | where_exp:'item', 'item.header_exclude == null' %}
 
 <p align="center">
-  {% for basic in basics %}
+  {% for basic in header_basics %}
     <span style="display: inline-block;">
       <a href="#{{ basic.slug }}">{{ basic.title_pre | default: basic.title }}</a>
       {% if forloop.last == false %}
