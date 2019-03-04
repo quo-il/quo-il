@@ -13,7 +13,8 @@ title: ""
     <span style="display: inline-block;">
       <a href="#{{ basic.slug }}">{{ basic.title_pre | default: basic.title }}</a>
       {% if forloop.last == false %}
-      &bull;
+      <span class="hide-small">&bull;</span>
+      <span class="hide-big"><br></span>
       {% endif %}
     </span>
   {% endfor %}

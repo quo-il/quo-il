@@ -1,6 +1,14 @@
 ---
 ---
 
+@media (max-width: 450px) {
+  .hide-small { display: none !important; } 
+}
+
+@media (min-width: 450px) {
+  .hide-big { display: none !important; } 
+}
+
 blockquote { text-align: right; }
 a.edit_link_gh { 
   font-size: 80%; 
