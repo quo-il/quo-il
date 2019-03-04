@@ -10,6 +10,12 @@
 }
 
 blockquote { text-align: right; }
+
+a.uncolored {
+  color: inherit;
+  text-decoration: none;
+}
+
 a.edit_link_gh { 
   font-size: 80%; 
   color: #3f3f3f;
