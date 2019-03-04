@@ -32,6 +32,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+google_analytics: true
 webmaster_verifications:
   google: VBMqxURnNCh_rFOjCqEsTbLXPviVjOnw2yGj58rACZA
   # bing: 1234
