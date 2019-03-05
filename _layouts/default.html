@@ -17,7 +17,7 @@
         </div>
         {% endif %}
         {% if page.url != '/' and page.image != null %}
-        <img class="main_image" src="{{ page.image }}" alt="תמונה של {{ page.title }}">
+        <img class="main_image" src="{{ page.image }}" alt="תמונה של {{ page.title | escape }}">
         {% endif %}
         {{ content }}
       </div>

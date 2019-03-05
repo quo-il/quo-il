@@ -8,7 +8,7 @@
     {% seo title=false %}
   {% else %}
     {% seo %}
-    <meta property="og:title" content="{{ page.title }} | {{ site.title}}" />
+    <meta property="og:title" content="{{ page.title | escape }} | {{ site.title}}" />
   {% endif %}
   <meta name="keywords" content="סטטוס קוו,תחובורה,תחבורה ציבורית,שבת,אוטובוסים">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
