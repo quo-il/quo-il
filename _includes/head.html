@@ -5,9 +5,9 @@
   <link rel="shortcut icon" href="/favicon.png">
   {% if page.url == '/' %}
     <title>{{ site.title }}</title>
-    <meta property="og:title" content="{{ site.title }}" />
     {% seo title=false %}
   {% else %}
+    <meta property="og:title" content="{{ page.title }} | {{ site.title}}" />
     {% seo %}
   {% endif %}
   <meta name="keywords" content="סטטוס קוו,תחובורה,תחבורה ציבורית,שבת,אוטובוסים">
