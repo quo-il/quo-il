@@ -70,6 +70,7 @@ collections:
 
 
 exclude:
+  - "*.template.md"
   - "*.sh"
   - Gemfile
   - Gemfile.lock
