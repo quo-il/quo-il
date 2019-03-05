@@ -4,6 +4,7 @@
 
 layout: default
 title: ""
+image: /favicon.png
 ---
 
 {% assign basics = site.basics | sort: 'sort_order' %}
