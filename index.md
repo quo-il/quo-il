@@ -23,11 +23,11 @@ image: /favicon.png
 </p>
 
 {% for basic in basics %}
-  <div>
-  <h2 style="display: inline;" id="{{ basic.slug }}">{{ basic.title }}</h2>
-  {% if basic.add_edit == true %}
-  <a class="edit_link_gh" href="https://github.com/quo-il/quo-il/edit/master/{{basic.path}}">לעריכת מקטע</a>
-  {% endif %}
+  <div class="editable_heading">
+    <h2 style="display: inline;" id="{{ basic.slug }}">{{ basic.title }}</h2>
+    {% if basic.add_edit == true %}
+    <a class="edit_link_gh" href="https://github.com/quo-il/quo-il/edit/master/{{basic.path}}">לעריכת מקטע</a>
+    {% endif %}
   </div>
   {{ basic.content }}
 {% endfor %}

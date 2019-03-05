@@ -9,6 +9,12 @@
   .hide-big { display: none !important; } 
 }
 
+.editable_heading {
+  & + p {
+    margin-top: 10px;
+  }
+}
+
 blockquote { text-align: right; }
 
 a.uncolored {
