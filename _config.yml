@@ -40,6 +40,24 @@ webmaster_verifications:
   # yandex: 1234
   # baidu: 1234
 
+facebook:
+  publisher: https://www.facebook.com/status.quo.il
+  admins: igormaka
+logo: /favicon.png
+
+social:
+  name: תחבורה ציבורית בסטטוס קוו
+  links:
+    - https://www.facebook.com/status.quo.il
+
+minima: 
+  social_links:
+    facebook: status.quo.il
+    github: quo-il
+
+facebook_username: status.quo.il
+github_username: quo-il
+
 collections:
   basics:
     output: false
