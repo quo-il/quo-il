@@ -16,7 +16,7 @@
           <a class="edit_link_gh" href="https://github.com/quo-il/quo-il/edit/master/{{ page.path }}">לעריכת עמוד זה</a>
         </div>
         {% endif %}
-        {% if page.url != '/' and page.image != null and page.image != '/favicon.png' %}
+        {% if page.url != '/' and page.image != null and page.image != '/og_image.png' %}
         <img class="main_image" src="{{ page.image }}" alt="תמונה של {{ page.title | escape }}">
         {% endif %}
         {{ content }}

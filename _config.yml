@@ -43,13 +43,13 @@ webmaster_verifications:
 facebook:
   publisher: https://www.facebook.com/status.quo.il
   admins: igormaka
-logo: /favicon.png
+logo: /og_image.png
 
 defaults:
   - scope:
       path: ""
     values:
-      image: /favicon.png
+      image: /og_image.png
 
 social:
   name: תחבורה ציבורית בסטטוס קוו
