@@ -45,6 +45,12 @@ facebook:
   admins: igormaka
 logo: /favicon.png
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /favicon.png
+
 social:
   name: תחבורה ציבורית בסטטוס קוו
   links:
