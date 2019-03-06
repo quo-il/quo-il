@@ -1,11 +1,12 @@
 ---
 ---
 
-@media (max-width: 450px) {
+$breakpoint-mobile: 450px;
+@media (max-width: $breakpoint-mobile) {
   .hide-small { display: none !important; } 
 }
 
-@media (min-width: 450px) {
+@media (min-width: $breakpoint-mobile) {
   .hide-big { display: none !important; } 
 }
 
@@ -77,4 +78,10 @@ cite {
 
 cite a {
   color: inherit;
+}
+
+td p.inline_header {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0;
 }
